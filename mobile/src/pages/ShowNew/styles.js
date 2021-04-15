@@ -7,7 +7,7 @@ export const Container = styled.ScrollView`
 `;
 
 export const Image = styled.Image`
-  height: 180px;
+  height: 240px;
   width: 100%;
   align-self: center;
 `;
@@ -43,7 +43,6 @@ export const Title = styled.Text`
 export const Text = styled.Text`
   margin-top: 10px;
   font-size: 16px;
-  text-align: justify;
 `;
 
 export const TranslateContainer = styled.View`

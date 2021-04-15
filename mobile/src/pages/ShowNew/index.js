@@ -10,7 +10,7 @@ import {
   Text,
   TranslateContainer,
 } from './styles';
-import BackgroundNew from '../../assets/';
+import BackgroundNew from '../../assets/Coronavirus.png';
 
 export default function ShowNew() {
   return (
@@ -18,16 +18,16 @@ export default function ShowNew() {
       <Image source={BackgroundNew} />
       <NewContainer>
         <TextContainer>
-            <DateTime>13/04/2021 19:44</DateTime>
-            <Title>O que é Coronavírus e como reconhecer os seus sintomas</Title>
-            <Text>      SO coronavírus é uma família de vírus que causa infecções respiratórias e provoca a doença chamada COVID-19, que foi identificada no ano passado em Wuhan, China. No dia 11 de março de 2020,
+            <DateTime>14/04/2021 23:18</DateTime>
+            <Title>Coronavírus (COVID-19) Tome cuidado, parente!</Title>
+            <Text>    O coronavírus é uma família de vírus que causa infecções respiratórias e provoca a doença chamada COVID-19, que foi identificada no ano passado em Wuhan, China. No dia 11 de março de 2020,
               essa doença foi classificada como PANDEMIA pela Organização, Mundial da Saúde (OMS). Isso quer dizer que ela se espalhou por uma grande região do mundo, infectando milhares de pessoas e acabou
               chegando aqui na região Amazônica também. Por isso, temos que nos cuidar e evitar que essa doença se espalhe no Rio Negro.</Text>
-            <Text>    Lorem ipsum amet egestas cubilia fusce aliquam ipsum dictum magna libero porta donec risus venenatis, platea suscipit ac placerat aenean dictumst potenti tincidunt curabitur facilisis
-              sollicitudin bibendum. laoreet cras porttitor hac facilisis habitasse hendrerit mattis pretium, faucibus vel duis varius venenatis ornare malesuada adipiscing, aliquam justo ornare conubia
-              fringilla potenti condimentum. nullam risus quisque malesuada donec neque porttitor aenean lobortis auctor condimentum odio litora nibh a torquent, nibh venenatis velit hac mollis consectetur
-              morbi laoreet netus nam quisque magna eros. quis egestas ligula elit eros pellentesque cursus pellentesque metus, bibendum accumsan fermentum aenean etiam neque consequat, fermentum amet lacus
-              ut sollicitudin tortor egestas.</Text>
+            <Text>    Atualmente, a transmissão ocorre principalmente de uma pessoa para outra. É como uma gripe, o contágio acontece da mesma forma - através de gotículas que entram em contato com a boca,
+              nariz e olhos, entrando no sistema respiratório. Os sintomas podem aparecer entre 1 e 12 dias após a exposição ao vírus.</Text>
+            <Text>    Caso sinta febre e tosse, fique em casa por pelo menos 14 dias para não transmitir a doença. E não compartilhe utensílios e nem tenha contato físico com amigos e familiares. Caso sinta
+              dificuldades para respirar, procure o hospital ou unidade básica de saúde mais próxima de sua casa. Procure os serviços de saúde somente se você faz algum tratamento que não pode ser interrompido,
+              ou se estiver realmente com uma doença grave. Os hospitais e unidades básicas de saúde são os lugares mais propícios para adquirir qualquer doença contagiosa, inclusive o coronavírus.</Text>
         </TextContainer>
       </NewContainer>
     </Container>
