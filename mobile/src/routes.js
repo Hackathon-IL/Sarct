@@ -5,6 +5,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import Header from './components/Header';
 import News from './pages/News';
+import Translate from './pages/Translate';
 import { View } from 'react-native';
 
 const Tab = createBottomTabNavigator();
