@@ -1,17 +1,24 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
-import { View } from 'react-native';
 import React from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+
+import Header from './components/Header';
+import { View } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
-function NewsPages() {
+function NewsPagesStack() {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="IndexNews" component={View} />
-      <Stack.Screen name="ShowNews" component={View} />
+    <Stack.Navigator
+      initialRouteName='IndexNews'
+      screenOptions={{
+        header: (props) => <Header {...props} />,
+      }}
+    >
+      <Stack.Screen name="IndexNews" options={{ title: 'Notícias' }} component={View} />
+      <Stack.Screen name="ShowNews" options={{ title: 'Notícias' }} component={View} />
     </Stack.Navigator>
   )
 }
@@ -39,7 +46,7 @@ export default function Routes() {
       }}
     >
       <Tab.Screen name="Home" options={{ title: 'Início' }} component={View} />
-      <Tab.Screen name="News" options={{ title: 'Notícias' }} component={NewsPages} />
+      <Tab.Screen name="News" options={{ title: 'Notícias' }} component={NewsPagesStack} />
     </Tab.Navigator>
   );
 }
