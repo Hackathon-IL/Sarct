@@ -3,10 +3,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import ShowNew from './pages/ShowNew';
 import Header from './components/Header';
 import News from './pages/News';
 import { View } from 'react-native';
+import Home from './pages/Home';
+import ShowNew from './pages/ShowNew';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -47,7 +48,7 @@ export default function Routes() {
         inactiveTintColor: 'gray',
       }}
     >
-      <Tab.Screen name="Home" options={{ title: 'Início' }} component={View} />
+      <Tab.Screen name="Home" options={{ title: 'Início' }} component={Home} />
       <Tab.Screen name="News" options={{ title: 'Notícias' }} component={NewsPages} />
     </Tab.Navigator>
   );

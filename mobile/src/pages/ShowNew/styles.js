@@ -22,7 +22,7 @@ export const NewContainer = styled.ScrollView`
 export const TextContainer = styled.View`
   flex: 1;
   width: 100%;
-  padding: 16px 12px 12px 12px;
+  padding: 16px 20px 12px 20px;
   background: #FFF;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
