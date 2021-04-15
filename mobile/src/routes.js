@@ -4,6 +4,7 @@ import React from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import Header from './components/Header';
+import News from './pages/News';
 import { View } from 'react-native';
 
 const Tab = createBottomTabNavigator();
@@ -17,7 +18,7 @@ function NewsPages() {
         header: (props) => <Header {...props} />,
       }}
     >
-      <Stack.Screen name="IndexNews" options={{ title: 'Notícias' }} component={View} />
+      <Stack.Screen name="IndexNews" options={{ title: 'Notícias' }} component={News} />
       <Stack.Screen name="ShowNews" options={{ title: 'Notícias' }} component={View} />
     </Stack.Navigator>
   )
