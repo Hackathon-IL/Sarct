@@ -7,6 +7,8 @@ import Header from './components/Header';
 import News from './pages/News';
 import Translate from './pages/Translate';
 import { View } from 'react-native';
+import Home from './pages/Home';
+import ShowNew from './pages/ShowNew';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -20,7 +22,7 @@ function NewsPages() {
       }}
     >
       <Stack.Screen name="IndexNews" options={{ title: 'Notícias' }} component={News} />
-      <Stack.Screen name="ShowNews" options={{ title: 'Notícias' }} component={View} />
+      <Stack.Screen name="ShowNews" options={{ title: 'Notícias' }} component={ShowNew} />
     </Stack.Navigator>
   )
 }
@@ -47,7 +49,7 @@ export default function Routes() {
         inactiveTintColor: 'gray',
       }}
     >
-      <Tab.Screen name="Home" options={{ title: 'Início' }} component={View} />
+      <Tab.Screen name="Home" options={{ title: 'Início' }} component={Home} />
       <Tab.Screen name="News" options={{ title: 'Notícias' }} component={NewsPages} />
     </Tab.Navigator>
   );
