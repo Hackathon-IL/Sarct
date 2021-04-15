@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
+import ShowNew from './pages/ShowNew';
 import Header from './components/Header';
 import News from './pages/News';
 import { View } from 'react-native';
@@ -19,7 +20,7 @@ function NewsPages() {
       }}
     >
       <Stack.Screen name="IndexNews" options={{ title: 'Notícias' }} component={News} />
-      <Stack.Screen name="ShowNews" options={{ title: 'Notícias' }} component={View} />
+      <Stack.Screen name="ShowNews" options={{ title: 'Notícias' }} component={ShowNew} />
     </Stack.Navigator>
   )
 }
