@@ -8,6 +8,7 @@ function Header({ scene }) {
   const route = useRoute();
   const { goBack } = useNavigation();
   const title = scene?.descriptor?.options?.title;
+  const routeName = route.name;
 
   function Previous() {
     return (
@@ -23,7 +24,7 @@ function Header({ scene }) {
     )
   }
 
-  return title === 'Notícias'
+  return routeName === 'IndexNews'
     ? (
       <Container>
         <Title>{title}</Title>

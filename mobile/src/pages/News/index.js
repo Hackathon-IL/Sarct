@@ -1,12 +1,18 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, ScrollView, TouchableOpacity } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
+import { useNavigation } from '@react-navigation/native';
 
 import styles from './styles';
+import BackgroundNew from '../../assets/Coronavirus.png';
 
 function News() {
+  const { navigate } = useNavigation();
+
   return (
-    <>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+    >
       <View style={styles.border}>
         <Picker
           selectedValue='Selecione uma lingua'
@@ -15,11 +21,11 @@ function News() {
         >
           <Picker.Item label="Português" value="pt" />
           <Picker.Item label="Guarapari" value="guarapari" />
-          <Picker.Item label=" sateré-mawé" value=" sateré-mawé" />
+          <Picker.Item label="sateré-mawé" value=" sateré-mawé" />
           <Picker.Item label="nheengatu" value="nheengatu" />
         </Picker>
       </View>
-      <View style={styles.card}>
+      <TouchableOpacity onPress={() => navigate('ShowNews')} style={styles.card}>
         <View style={styles.tittle}>
           <View style={styles.detail} />
           <Text style={styles.tittleText}>Cartilha de informe ao covid</Text>
@@ -27,12 +33,12 @@ function News() {
         <Text style={styles.hour}>13/04/2021 19:44</Text>
         <View style={styles.new}>
           <Text style={styles.text}>"lorem ipsum dolor sit amet consectetur adipiscing elit sagittis velit torquent class ornare lobortis litora a duis lectus congue porttitor</Text>
-          <Image style={styles.image} source={{ uri: "https://pbs.twimg.com/profile_images/1218637032748146688/8uJwwsK1_400x400.jpg" }} />
+          <Image style={styles.image} source={BackgroundNew} />
         </View >
         <View style={styles.line} />
-      </View>
+      </TouchableOpacity>
 
-      <View style={styles.card}>
+      <TouchableOpacity onPress={() => navigate('ShowNews')} style={styles.card}>
         <View style={styles.tittle}>
           <View style={styles.detail} />
           <Text style={styles.tittleText}>Cartilha de informe ao covid</Text>
@@ -40,12 +46,12 @@ function News() {
         <Text style={styles.hour}>13/04/2021 19:44</Text>
         <View style={styles.new}>
           <Text style={styles.text}>"lorem ipsum dolor sit amet consectetur adipiscing elit sagittis velit torquent class ornare lobortis litora a duis lectus congue porttitor</Text>
-          <Image style={styles.image} source={{ uri: "https://pbs.twimg.com/profile_images/1218637032748146688/8uJwwsK1_400x400.jpg" }} />
+          <Image style={styles.image} source={BackgroundNew} />
         </View >
         <View style={styles.line} />
-      </View>
+      </TouchableOpacity>
 
-      <View style={styles.card}>
+      <TouchableOpacity onPress={() => navigate('ShowNews')} style={styles.card}>
         <View style={styles.tittle}>
           <View style={styles.detail} />
           <Text style={styles.tittleText}>Cartilha de informe ao covid</Text>
@@ -53,11 +59,11 @@ function News() {
         <Text style={styles.hour}>13/04/2021 19:44</Text>
         <View style={styles.new}>
           <Text style={styles.text}>"lorem ipsum dolor sit amet consectetur adipiscing elit sagittis velit torquent class ornare lobortis litora a duis lectus congue porttitor</Text>
-          <Image style={styles.image} source={{ uri: "https://pbs.twimg.com/profile_images/1218637032748146688/8uJwwsK1_400x400.jpg" }} />
+          <Image style={styles.image} source={BackgroundNew} />
         </View >
         <View style={styles.line} />
-      </View>
-    </>
+      </TouchableOpacity>
+    </ScrollView>
   )
 }
 
