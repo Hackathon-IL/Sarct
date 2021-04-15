@@ -12,7 +12,7 @@
 </p>
 
 <div align="center">
-  <img height=500 src="mobile/assets/splashscreen.png" alt="sign"/>
+  <img height=500 src="mobile/assets/Splashscreen.png" alt="sign"/>
 </div>
 
 O "Conta Comigo" é um projeto idealizado e desenvolvido pela equipe Sarct durante a maratona de inovação Hackathon IL-PCTec.
