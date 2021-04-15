@@ -15,12 +15,6 @@
   <img height=500 src="mobile/assets/splashscreen.png" alt="sign"/>
 </div>
 
-<div align="center">
-<div>
-<img height=500 src="mobile/assets/1618500046353.jpg" alt="list"/>
-<img height=500 src="mobile/assets/1618500046337.jpg" alt="confirm"/>
-</div>
-
 O "Conta Comigo" é um projeto idealizado e desenvolvido pela equipe Sarct durante a maratona de inovação Hackathon IL-PCTec.
 
 O Hackathon IL-PCTec foi um evento voltado para o desenvolvimento de soluções para o enfrentamento das barreiras de comunicação linguística para imigrantes, indígenas e surdos no acesso às demandas cotidianas e às políticas públicas no contexto da pandemia, através da construção de um APP no qual essas pessoas possam ter acesso a uma mediação linguística para se comunicar com agentes públicos.
@@ -39,11 +33,35 @@ Em busca de solucionar esses diversos problemas, surgiu o Conta Comigo. O nosso 
 
 Utilizando das tecnologias digitais, desenvolvemos o Conta Comigo, um aplicativo voltado para a informação em diversas línguas, capaz de ser utilizado através de guia ilustrativo.
 
+<div align="center">
+<div>
+<img height=500 src="mobile/assets/IndexPT.jpg"/>
+<img height=500 src="mobile/assets/IndexDaw.jpg"/>
+</div>
+
 Com o objetivo de manter todos informados, o Conta Comigo apresenta em sua página inicial, notícias, guias e cartilhas. Essas publicações podem ser acessadas na língua desejada alterando através de um seletor acima.
+
+<div align="center">
+<div>
+<img height=500 src="mobile/assets/1618500046353.jpg"/>
+<img height=500 src="mobile/assets/1618500046337.jpg"/>
+</div>
 
 Surgiu porém, a necessidade de uma fonte confiável para traduzir esse material para um língua indígena. Como citado, os tradutores são a peça central da existência de materiais traduzidos. Partindo disso, inserimos a funcionalidade "traduzir", que permite a qualquer pessoa que saiba uma língua além do português, traduzir aquela publicação. O nosso objetivo com isso é propagar o voluntariado, mantendo assim, diversas notícias sempre em diversas línguas.
 
+<div align="center">
+<div>
+<img height=500 src="mobile/assets/1618509684401.jpg"/>
+</div>
+
 Com o objetivo de auxiliar na comunicação entre indivíduos que não sabem português e agente públicas, criamos mais uma funcionalidade, o guia ilustrativo. No guia ilustrativos, com o objetivo de usufruir da comunicação visual, inserimos desenhos. Através dos desenhos é possível que um indivíduo que não saiba português, indique através das figuras suas necessidades para uma gente público. Utilizando do poder da imagem na comunicação, além de indicar suas necessidades, é possível acessar guias pre definidas com temas que são recorrentes, auxiliando assim tanto o indivíduo que busca se informar, quanto o agente público do que fazer.
+
+<div align="center">
+<div>
+<img height=500 src="mobile/assets/Primeira.jpg"/>
+<img height=500 src="mobile/assets/Segunda.jpg"/>
+<img height=500 src="mobile/assets/Terceira.jpg"/>
+</div>
 
 ## Rodando o projeto localmente
 
