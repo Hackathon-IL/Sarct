@@ -4,13 +4,15 @@ import { View } from 'react-native';
 import React from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
+import ShowNew from './pages/ShowNew';
+
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
 function NewsPages() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="IndexNews" component={View} />
+      <Stack.Screen name="IndexNews" component={ShowNew} />
       <Stack.Screen name="ShowNews" component={View} />
     </Stack.Navigator>
   )
