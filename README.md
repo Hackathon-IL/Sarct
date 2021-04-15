@@ -171,6 +171,10 @@ O aplicativo, foi feito para os voluntários e para os terceirizados que consiga
 
 O site foi projetado para os postos de distribuição de refil e para a central de controle. Apesar de não estar integrado com o backend ele já possui as páginas referentes ao login, lista com todos os dispensers disponíveis e também de criar um novo ponto para um novo dispenser.
 
+## Protótipo da Interface de Usuário
+
+**[Link para o protótipo](https://xd.adobe.com/view/503608f3-53a2-47db-8f84-5ab860150671-0565/specs/)**
+
 ## Pitch
 
 **[Link para o pitch](https://youtu.be/7mzZ77IM-vg)**
