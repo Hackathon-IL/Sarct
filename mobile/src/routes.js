@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 function NewsPages() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="IndexNews" component={ShowNew} />
+      <Stack.Screen name="Notícias" component={ShowNew} />
       <Stack.Screen name="ShowNews" component={View} />
     </Stack.Navigator>
   )
@@ -27,7 +27,7 @@ export default function Routes() {
           let iconName;
 
           if (route.name === 'Home') {
-            iconName = 'ear-hearing';
+            iconName = 'eye';
           } else if (route.name === 'News') {
             iconName = 'newspaper';
           }

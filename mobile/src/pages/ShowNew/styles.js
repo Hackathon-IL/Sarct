@@ -45,7 +45,13 @@ export const Text = styled.Text`
   font-size: 16px;
 `;
 
-export const TranslateContainer = styled.View`
-  width: 100%;
+export const TranslateContainer = styled.Text`
+  font-size: 16px;
+  border: 2px solid #D71B3B;
+  color: #D71B3B;
+  border-radius: 14px;
+  padding: 2px 14px 0;
+  margin: 4px auto 0;
+  text-align: center;
 `;
 
