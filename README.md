@@ -92,67 +92,21 @@ cd Sarct
 
 ### 3 - Instale as dependências
 
-```
-cd server
-yarn
-```
 
 ```
 cd mobile
 yarn
 ```
 
-```
-cd web
-yarn
-```
-
-### 4 -Configurar o ambiente do backend
-
-Configuração das variáveis de ambiente do banco de dados postgress:
-
-```
-DB_HOST=localhost
-DB_USER={ USUÁRIO DO BANCO DE DADOS}
-DB_PASS={ SENHA DO BANCO DE DADOS}
-DB_NAME={ NOME DO BANCO DE DADOS}
-```
-
-### 5 -Configurar o ambiente do mobile
-
-Configuração do arquivo mobile/.env
-O API_URL é igual ao do expo porém sem a porta
-Ex.: 192.168.0.XX
-
-```
-API_URL= ''
-```
-
-### 6 - Execute o backend
-
-```
-cd server
-yarn run dev
-```
-
-### 7 - Execute o mobile
+### 4 - Execute o mobile
 
 ```
 cd mobile
-yarn start
-```
-
-### 8 - Execute o site
-
-```
-cd web
 yarn start
 ```
 
 ## Tecnologias utilizadas
 
-- [Express](https://expressjs.com/) - Framework utilizado no backend
-- [Sequelize](https://sequelize.org/) - ORM para consular o banco de dados postgres
 - [React Native](https://reactnative.dev/) - Framework utilizado no frontent
 - [Styled components](https://styled-components.com/) - Estilização de componentes no react native
 
@@ -163,13 +117,6 @@ yarn start
 - [Robson Melo](https://github.com/RobinhoRamon)
 - [Lucas Rosa](https://github.com/lucasharosa)
 
-## Oque foi desenvolvido
-
-Nosso projeto é dividido em 3 partes: Site, aplicativo mobile e o back end.
-
-O aplicativo, foi feito para os voluntários e para os terceirizados que consigam utilizá-lo tornando a atualização de informações mais dinâmica. Nele já desenvolvemos a leitura do QR code e duas formas de visualização dos dispensers disponíveis no campus, uma através de uma lista contendo o estado do dispenser (cheio ou vazio) e um ponto de referência e a outra será um mapa da UnB, com as mesmas informações da lista porém com o ponto exato onde o dispenser está.
-
-O site foi projetado para os postos de distribuição de refil e para a central de controle. Apesar de não estar integrado com o backend ele já possui as páginas referentes ao login, lista com todos os dispensers disponíveis e também de criar um novo ponto para um novo dispenser.
 
 ## Protótipo da Interface de Usuário
 
@@ -177,4 +124,4 @@ O site foi projetado para os postos de distribuição de refil e para a central 
 
 ## Pitch
 
-**[Link para o pitch](https://youtu.be/7mzZ77IM-vg)**
+**[Link para o pitch]()**
