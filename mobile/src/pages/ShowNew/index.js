@@ -11,6 +11,7 @@ import {
   TranslateContainer,
 } from './styles';
 import BackgroundNew from '../../assets/Coronavirus.png';
+//import BackgroundNew from '../../assets/Sintomas.png';
 
 export default function ShowNew() {
   return (
@@ -66,17 +67,6 @@ export default function ShowNew() {
             <Text>    Aa’ dâw pil sij nĩi tiruud. Aa nõr çâ’ẽr tiruud tir nĩi tên, tir çom tên, xudũy’ rid tir rãm tên, top buut tir rãm xôo’ tên, tir tẽek nõr çâ’. Tir nõr çâ’ tên, tir dêelẽr pe’ tir nõr çâa’.
               Tuum ôol xâd tâ’ pun’, dâw tôlxal’ tir tit. Aa’ dâw nõr çâa’ dâw dakêe’ pay nũ’dâaw dâr dêelẽr dak beey. Dâw wẽej nõr çâa’ mẽr, aa’ yumẽr rẽd, nĩi pay, aa’ nôo’ dâak, na’ çis daak tir sôogn tee’ dôo’
               bug. Ãm sôob rẽd ãm pe’ tên aa’ rũy mãa’ ãm sôob çid yẽew bõw rẽd. Xub wayẽr tawaal’ yuun, aa’ dâw sâa tên duy. Ãm rayẽr kas wap aagẽy.</Text>
-        </TextContainer>
-      </NewContainer>
-
-      <NewContainer>
-        <TextContainer>
-            <DateTime>15/04/2021 2:52 (Português)</DateTime>
-            <Title>Coronavírus (COVID-19) O que fazer se sentir os sintomas?</Title>
-            <TranslateContainer>Traduzir</TranslateContainer>
-            <Text>    Caso sinta febre e tosse, fique em casa por pelo menos 14 dias para não transmitir a doença. E não compartilhe utensílios e nem tenha contato físico com amigos e familiares. Caso sinta
-              dificuldades para respirar, procure o hospital ou unidade básica de saúde mais próxima de sua casa. Procure os serviços de saúde somente se você faz algum tratamento que não pode ser interrompido,
-              ou se estiver realmente com uma doença grave. Os hospitais e unidades básicas de saúde são os lugares mais propícios para adquirir qualquer doença contagiosa, inclusive o coronavírus.</Text>
         </TextContainer>
       </NewContainer>
     </Container>
