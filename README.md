@@ -124,4 +124,4 @@ yarn start
 
 ## Pitch
 
-**[Link para o pitch]()**
+**[Link para o pitch](https://youtu.be/bO1l3qfCU0w)**
